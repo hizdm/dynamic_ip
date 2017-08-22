@@ -92,7 +92,6 @@ class dynamic{
 		curl_exec($ch);
 		curl_close($ch);
 		return 'reset-ok';
-		exit;
 	}
 
 	/**

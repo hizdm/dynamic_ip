@@ -127,8 +127,7 @@ class dynamic{
 	 * 获取当前IP
 	 */
 	private function getIp() {
-		$myip = file_get_content("http://myip.ipip.net/s",false);
-		return $myip;
+		return file_get_content("http://myip.ipip.net/s",false);
 	}
 
     /**

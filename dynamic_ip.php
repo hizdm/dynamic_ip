@@ -4,7 +4,7 @@ error_reporting(E_ALL);
  * 动态更换IP采集策略（PHP版）
  * @author  zzl<598515020@qq.com>
  * @version v1.0
- * @copyright http://w3schools.wang
+ * @copyright https://hizdm.cn
  */
 class dynamic{
     public function __construct() {
